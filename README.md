@@ -12,6 +12,7 @@ The purpose of BiteBuddy is to:
 If the user types in an incorrect input, the app responds with a friendly error message and prompts them to try again.
 
 ## Design Considerations
+https://imgur.com/a/0lrO1c6
 
 ### User Interface (UI)
 - Minimal layout with one main input field and results area.
@@ -19,11 +20,13 @@ If the user types in an incorrect input, the app responds with a friendly error 
 - A reset button lets users clear everything with one tap.
 
 ### User Experience (UX)
+https://imgur.com/a/JTLxF2O
 - Quick interaction: type the time of day → get meal suggestions.
 - Friendly error messages instead of app crashes.
 - Designed to be intuitive for first-time users.
 
 ### Technical Design
+https://imgur.com/a/LJfa50n
 - Language: Kotlin
 - Framework: Android Studio
 - Compatibility: minSdk 21, compileSdk 35
