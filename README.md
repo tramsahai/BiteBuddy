@@ -52,4 +52,7 @@ This makes development smoother and more reliable as the project grows.
 ## Conclusion
 BiteBuddy is a lightweight but practical app that helps users make meal choices in a simple and interactive way. Its design is minimal, user-friendly, and effective.
 
+## Reference 
+W3Schools. (n.d.). Kotlin Tutorial. W3Schools. Retrieved September 1, 2025, from https://www.w3schools.com/KOTLIN/index.php
+
 GitHub made it possible to manage code efficiently, while GitHub Actions provide opportunities for future automation and testing. Together, these tools support both the technical and creative sides of the project.
