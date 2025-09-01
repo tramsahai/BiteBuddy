@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout for BiteBuddy: fun, emoji-filled, and interactive -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#FFF8E1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- App title -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:text="BiteBuddy 🍽️"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#FF5722"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!-- User input for time of day -->
+    <EditText
+        android:id="@+id/etTime"
+        android:hint="Type time of day (e.g., Morning, Afternoon, Dinner)"
+        android:padding="16dp"
+        android:background="@drawable/rounded_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Button to get meal suggestion -->
+    <Button
+        android:id="@+id/btnSuggest"
+        android:text="Get Suggestion 🍕"
+        android:backgroundTint="#FF9800"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- TextView to display suggestion -->
+    <TextView
+        android:id="@+id/tvSuggestion"
+        android:text=""
+        android:textSize="20sp"
+        android:textColor="#4CAF50"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!-- Reset button -->
+    <Button
+        android:id="@+id/btnReset"
+        android:text="Reset 🔄"
+        android:backgroundTint="#9E9E9E"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
